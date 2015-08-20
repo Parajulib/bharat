@@ -1,0 +1,147 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+h1 {
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.login {
+	font-size: 14px;
+	padding: 5px 10px 5px 10px;
+}
+
+.textfield {
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#userLogin label {
+	display: block;
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin-right: 5px;
+	line-height: 22px;
+}
+
+.clear {
+	clear: both;
+}
+
+#wrap {
+	width: 1000px;
+	margin: auto;
+}
+
+#wrap .header {
+	height: 100px;
+	background-color: black;
+	position: relative;
+	color: white;
+}
+
+#wrap .header .menu {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+
+#wrap .header .logo {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+#wrap .header .logo p {
+	line-height: 18px;
+}
+
+#wrap .header .menu ul li {
+	list-style-type: none;
+	display: inline;
+	line-height: 25px;
+	padding-left: 16px;
+}
+
+ a {
+	text-decoration: none;
+	
+}
+#wrap .header .menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+#wrap .content {
+	background-color: #c0c0c0;
+	padding: 10px 0px 50px 50px;
+}
+#wrap .content-right {
+	width: 500px;
+	float: right;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #c0c0c0;
+}
+#wrap .content p {
+	width: 500px;
+	text-indent: 30px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+#wrap .content-right .para {
+	padding-left: 110px;
+}
+
+#wrap .content-left {
+	background-color: #c0c0c0;
+}
+
+#wrap .content-left p {
+	line-height: 16px;
+	text-indent: 30px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+#wrap .content-left h1 {
+	padding-top: 20px;
+}
+
+#wrap .footer {
+	height: 80px;
+	text-align: center;
+	background-color: black;
+}
+
+#wrap .footer .copyright {
+	font-size: 12px;
+	font-weight: bold;
+	color: blue;
+}
+
+#wrap .footer #detail {
+	font-family: 12px;
+	font-family: fantasy;
+	color: gray;
+}
+.show {
+	visibility: visible;
+	display: block;
+}
+.hidden {
+	display: none;
+}
